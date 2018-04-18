@@ -1,0 +1,33 @@
+version 0.1.11 ( September 26, 2015 )
+-------------------------------------------------------
+
+- removed advertising from Appearance > Cannyon FAQ
+- include scripts with version
+- fixed others small bugs
+
+version 0.1.10 ( September 17, 2015 )
+-------------------------------------------------------
+
+- fixed generate menu from pages and sub pages
+- fixed small admin dashboard css 
+- fixed button "Upgrade to Premium"
+
+version 0.1.9 ( September 11, 2015 )
+-------------------------------------------------------
+
+- fixed google fonts load with https:// and http://
+- fixed header image with parallax
+- fixed preload images and masonry init gallery
+- added support for header image
+- added option to block myThem.es Gallery Style ( customizer )
+- block control settings "header_textcolor"
+- block control settings "display_header_text"
+
+version 0.1.8 ( September 4, 2015 )
+-------------------------------------------------------
+
+- added instructions.txt
+- added changelog.txt
+- change mythemes.scripts.class.php line 60 from get_template_directory_uri() to get_stylesheet_directory_uri()
+- fixed CSS for blockquote
+- fixed another's small HTML and CSS issues

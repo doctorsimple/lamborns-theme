@@ -1,0 +1,115 @@
+nav.base-nav ul.mythemes-menu > li > a {padding: 5px 15px;}
+nav.base-nav ul.mythemes-menu > li:last-child > a {font-weight:900;}
+body > div.content, body footer aside, .mythemes-poor {background-color: transparent}
+footer .mythemes-black-side {background-color: #000}
+nav.base-nav ul.mythemes-menu > li > a:hover{color:#ffffd1;transition: all 0.3s linear 0s}
+.hentry, .hentry p, article p {line-height: 20px; font-family:"roboto", arial, sans-serif;}
+.mythemes-nav-label a {text-transform: none; font-family:"Open Sans",sans-serif,Arial,serif;}
+@media (max-width: 1024px) { .small-logo {display:none} }
+nav.base-nav ul li a {color:#e9e9e9;}
+.slb_data {display:none !important;}
+td {padding:0 2em}
+.mythemes-nav-label, .mythemes-nav-label a {font-size:18px; color:#999999; font-family: 'Open Sans', sans-serif;font-weight:400}
+body > header>.mythemes-poor>.container{
+    background-color: #ffffff;
+    background-image: url("http://www.lamborns.com/images/storeBWheader.jpg");background-position: left top;
+    background-repeat:no-repeat;background-size:100% 100%;width:100%;
+}
+body.home header>.mythemes-poor>.container {background: none;}
+nav.base-nav ul.mythemes-menu > li > a {text-shadow: 2px 2px 4px #000;}
+table td {border-width:10px;background-color:#111;border-color: #111115; box-shadow: 4px 4px 15px 3px #111115;}
+#gallery-1 .gallery-item{max-width:225px;}
+footer .mythemes-black-side {background-color: #000;}
+
+@media screen and (min-width:601px) {
+    #gallery-1 {
+        margin-left: 140px !important;
+    }
+
+    #gallery-1 img {
+        position: relative;
+        max-height: 85%;
+        max-width: 85% !important;
+        border-radius: 8px;
+        margin-left: -100%;
+        transition-property: max-height, max-width;
+        transition-duration: 1.5s;
+    }
+
+    #gallery-1 img:hover {
+        max-height: 450%;
+        max-width: 450% !important;
+        z-index: 10;
+    }
+
+    .ngg-gallery-thumbnail img {
+        max-height: 300px;
+        width: auto !important;
+        border-radius: 2px;
+    }
+}
+.mythemes-nav-small-device .mythemes-nav-btn button.btn-base-nav {
+    background-color: black;
+    height: 42px;
+    border: 1px #333 outset;
+    box-shadow: 1px 1px 4px 1px #333;
+}
+@media screen and (max-width : 1200px) {
+
+}
+
+
+@media screen and ( max-width: 600px) {
+    body > header>.mythemes-poor>.container {
+        background-image: none !important;
+        background-color: black !important;
+    }
+    table td {
+        display: inline-block;
+        text-align: center;
+        width: 100% !important;
+        clear: both;
+    }
+
+    table td img.alignright, table td img.alignleft, .hentry p.alignleft, .hentry p.alignright {
+        float: none;
+    }
+
+    nav.base-nav span.menu-plus {
+        margin-top: 2px;
+        background-color: black;
+    }
+
+    .grid .grid-item {
+        width: 100%;
+        position: relative !important;
+        top: auto !important;
+    }
+
+    .hentry p, article p {
+        margin: auto;
+    }
+
+    div.mythemes-poor {
+        height: 111px;
+    }
+
+    .ngg-gallery-thumbnail-box {
+        float: none !important;
+    }
+
+    .ngg-gallery-thumbnail {
+        background-color: transparent !important;
+        border: none !important;
+    }
+
+    .ngg-gallery-thumbnail a {
+        display: inline-block !important;
+    }
+    #gallery-1 .gallery-item {
+        max-width: none !important;
+    }
+    #gallery-1 img {
+        border-radius: 8px;
+    }
+}
